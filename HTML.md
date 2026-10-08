@@ -1,0 +1,2 @@
+HTML (HyperText Markup Language) é a linguagem de marcação padrão utilizada para estruturar e organizar conteúdos na web. Ela utiliza elementos e tags para definir componentes essenciais de uma página, como títulos, parágrafos, imagens e links. Em conjunto com CSS e JavaScript, forma o pilar fundamental para o desenvolvimento e exibição de sites em qualquer navegador.
+[[Frontend]]

@@ -1,0 +1,2 @@
+React é uma biblioteca JavaScript de código aberto focada na construção de interfaces de usuário reativas e componentizadas para a web. Desenvolvida pelo Meta, ela utiliza um DOM virtual eficiente para atualizar e renderizar apenas os componentes necessários quando os dados mudam. Sua arquitetura baseada em componentes reutilizáveis facilita a criação de aplicações web dinâmicas, escaláveis e de alta performance.
+[[JavaScript]]

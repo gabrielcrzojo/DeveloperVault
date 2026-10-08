@@ -1,0 +1,2 @@
+Uma API (Interface de Programação de Aplicações) é um conjunto de regras e ponteiros que permite que diferentes sistemas de software se comuniquem e troquem dados entre si de forma segura. Ela funciona como um "garçom" intermediário, levando a requisição de uma aplicação até um servidor e retornando a resposta esperada. Isso possibilita que desenvolvedores integrem funcionalidades.
+[[Backend]]
