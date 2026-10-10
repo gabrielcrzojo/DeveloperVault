@@ -1,0 +1,2 @@
+**MVP (Minimum Viable Product)** é a primeira versão de um produto contendo apenas as **funcionalidades essenciais para resolver seu problema principal e validar a ideia com usuários reais**. Seu objetivo é testar hipóteses rapidamente, coletar feedback e reduzir o desperdício de tempo e recursos. A partir dos resultados, o produto evolui por meio de novas funcionalidades e melhorias. É um conceito utilizado em **desenvolvimento de produtos e engenharia de software**, principalmente nas fases iniciais de um projeto.
+[[Concepts]]

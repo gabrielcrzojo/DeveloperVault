@@ -1,0 +1,2 @@
+**SSR (Server-Side Rendering)** e **CSR (Client-Side Rendering)** são estratégias de renderização de aplicações web. No **SSR**, o servidor gera o HTML da página antes de enviá-lo ao navegador, favorecendo carregamento inicial e SEO. No **CSR**, o navegador recebe o JavaScript e é responsável por gerar grande parte da interface, sendo comum em SPAs. SSR prioriza a renderização no **servidor**, enquanto CSR prioriza a renderização no **cliente**. A escolha depende das necessidades de desempenho, SEO e interatividade da aplicação.
+[[Concepts]]

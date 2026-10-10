@@ -1,0 +1,3 @@
+**Vite** é uma ferramenta de desenvolvimento e build para aplicações web modernas. Fornece um servidor local rápido com **Hot Module Replacement (HMR)** e realiza a transformação e empacotamento da aplicação para produção. Possui integração com frameworks como React, Vue e Svelte e suporte a TypeScript, JSX e CSS. É utilizado na camada de **Tooling/Build**, facilitando o desenvolvimento e a preparação da aplicação para produção.
+https://vite.dev/
+[[React]]
