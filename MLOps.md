@@ -1,0 +1,2 @@
+**MLOps (Machine Learning Operations)** é um conjunto de práticas para **desenvolver, implantar, monitorar e manter modelos de Machine Learning em produção**. Combina princípios de DevOps com necessidades específicas de ML, como gerenciamento de dados, treinamento, versionamento de modelos e monitoramento de desempenho. Busca automatizar e tornar confiável o ciclo **dados → modelo → produção → monitoramento → retreinamento**. Atua na interseção entre **Machine Learning, Data Science e DevOps**.
+[[Concepts]]
