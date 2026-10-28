@@ -1,2 +1,3 @@
 **CI/CD** é um conjunto de práticas DevOps para **automatizar a integração, validação e entrega de software**. **CI (Continuous Integration)** automatiza processos como integração de código, build e testes. **CD (Continuous Delivery/Deployment)** automatiza a preparação e/ou implantação da aplicação em ambientes de entrega. O objetivo é reduzir erros manuais e tornar as entregas mais rápidas, frequentes e confiáveis. Atua na camada de **DevOps e automação de software**.
+
 [[DevOps]]

@@ -1,2 +1,3 @@
 **Semantic Versioning (SemVer)** é um padrão para versionar softwares e bibliotecas usando **MAJOR.MINOR.PATCH**. **MAJOR** indica mudanças incompatíveis, **MINOR** adiciona funcionalidades compatíveis e **PATCH** corrige problemas sem quebrar a compatibilidade. O objetivo é comunicar claramente o impacto das alterações e facilitar o gerenciamento de dependências. É amplamente utilizado em **bibliotecas, pacotes, APIs e aplicações**, especialmente no ecossistema JavaScript/TypeScript.
+
 [[Concepts]]

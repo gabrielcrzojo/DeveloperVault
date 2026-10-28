@@ -1,0 +1,2 @@
+**Agent ADR** é um agente de inteligência artificial especializado na criação e manutenção de Architecture Decision Records (ADRs), documentos que registram decisões arquiteturais de um projeto de software. Utiliza modelos de linguagem para analisar o contexto, identificar alternativas, estruturar justificativas e documentar as consequências das decisões. Seu objetivo é facilitar a documentação, a rastreabilidade e a compreensão das escolhas técnicas ao longo da evolução de um projeto, mantendo a validação humana como parte importante do processo.
+[[AI Agent]]

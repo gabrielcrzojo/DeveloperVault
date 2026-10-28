@@ -4,4 +4,5 @@ A partir de um _prompt_, o modelo processa o contexto e gera uma resposta preven
 Pode ser utilizado para conversação, geração e análise de textos, tradução, resumo, classificação e geração de código.  
 Exemplos de famílias de LLMs incluem **GPT, Claude, Gemini, Llama e Mistral**.  
 LLMs podem ser integrados a aplicações por meio de APIs, permitindo adicionar recursos de IA a sistemas existentes.
+
 [[AI]]

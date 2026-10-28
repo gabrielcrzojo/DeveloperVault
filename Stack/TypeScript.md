@@ -1,3 +1,5 @@
 TypeScript é uma linguagem baseada em **JavaScript** que adiciona tipagem estática e recursos avançados para tornar o desenvolvimento mais seguro e previsível. Seus tipos permitem identificar muitos erros durante o desenvolvimento, antes da execução da aplicação. O código TypeScript é posteriormente convertido para JavaScript, mantendo compatibilidade com navegadores e runtimes como Node.js e Bun. É utilizado em **Frontend, Backend e aplicações Full-stack**, principalmente em projetos que exigem maior organização e manutenção.
-#leanguage 
+
+#leanguage
+
 [[JavaScript]]

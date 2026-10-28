@@ -1,3 +1,5 @@
 Python é uma linguagem de programação de alto nível, interpretada e com sintaxe extremamente simples e legível, focada em produtividade. Ela é amplamente versátil, sendo a principal escolha para desenvolvimento web, automação de tarefas, análise de dados e Inteligência Artificial. Por contar com uma vasta comunidade e um ecossistema rico em bibliotecas, permite construir soluções complexas com poucas linhas de código.
+
 [[Backend]]
+
 #leanguage

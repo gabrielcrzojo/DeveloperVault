@@ -1,3 +1,5 @@
 SQL (Structured Query Language) é a linguagem padrão universal utilizada para gerenciar, consultar e manipular dados em bancos de dados relacionais. Ela permite criar tabelas, inserir novos registros, atualizar dados existentes e realizar buscas complexas por meio de comandos simples e declarativos. Por sua eficiência e robustez, é a base fundamental para a gestão de dados em sistemas corporativos e análise de dados.
+
 [[DataBase]]
-#leanguage 
+
+#leanguage

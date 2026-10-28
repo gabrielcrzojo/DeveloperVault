@@ -4,4 +4,5 @@ Documentos geralmente são divididos em _chunks_, transformados em **embeddings*
 Na consulta, a busca encontra os conteúdos semanticamente mais relevantes, que são enviados ao modelo junto com a pergunta.  
 O LLM utiliza esse contexto para gerar uma resposta mais específica e fundamentada nos dados recuperados.  
 RAG **não modifica nem treina novamente o modelo**; ele adiciona informações externas durante a execução.
+
 [[LLM]]

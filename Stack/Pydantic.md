@@ -4,5 +4,7 @@ Quando os dados são recebidos, o Pydantic verifica se estão de acordo com o mo
 Também pode realizar conversões de tipos e transformar os modelos em estruturas como dicionários e JSON.  
 É muito utilizado na construção de APIs, principalmente com **FastAPI**, que usa Pydantic para validar requisições e estruturar respostas.  
 Seu objetivo principal é tornar o tratamento de dados mais **seguro, organizado e previsível**.
+
 [[Python]]
-#library 
+
+#library

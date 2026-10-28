@@ -1,0 +1,3 @@
+**Supabase** é uma plataforma open source de Backend as a Service (BaaS) que fornece serviços prontos para o desenvolvimento de aplicações. Utiliza PostgreSQL como banco de dados e integra autenticação de usuários, armazenamento de arquivos, APIs automáticas, funcionalidades em tempo real e funções serverless. Permite que aplicações acessem esses recursos por meio de SDKs e APIs, reduzindo a necessidade de construir toda a infraestrutura manualmente. Seu principal objetivo é acelerar o desenvolvimento de software, simplificando a implementação e o gerenciamento dos serviços de backend.
+https://supabase.com/
+[[PostgreSQL]]

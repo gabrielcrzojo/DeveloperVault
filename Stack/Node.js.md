@@ -1,2 +1,3 @@
 O **Node.js** é um ambiente de execução JavaScript assíncrono e de código aberto que permite rodar código no lado do servidor (backend). Construído sobre o motor V8 do Google Chrome, ele utiliza uma arquitetura baseada em eventos e E/S não bloqueante (_non-blocking I/O_), o que o torna leve, de alta performance e ideal para aplicações em tempo real, APIs e microsserviços com muitas conexões simultâneas.
+
 [[JavaScript]]

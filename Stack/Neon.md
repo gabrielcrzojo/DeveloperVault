@@ -1,3 +1,5 @@
 O **Neon** é uma plataforma de banco de dados _serverless_ que pega a engine nativa, robusta e confiável do **PostgreSQL** e a reinventa para a era da nuvem e da inteligência artificial. O seu grande diferencial em relação ao Postgres tradicional é a arquitetura de **separação entre armazenamento e processamento**, permitindo que o servidor ligue instantaneamente, faça escalonamento automático de recursos de acordo com a demanda e reduza a zero quando inativo para economizar custos. Além disso, o Neon traz o conceito de **ramificação (_database branching_)**, permitindo criar cópias instantâneas e isoladas do seu banco de dados (como no Git) para testes e ambientes de desenvolvimento sem impactar a produção — mantendo 100% de compatibilidade com todo o ecossistema, comandos e extensões do PostgreSQL.
+
 https://neon.com/
+
 [[PostgreSQL]]

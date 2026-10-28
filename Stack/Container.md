@@ -4,4 +4,5 @@ Containers são criados a partir de **imagens**, que funcionam como modelos para
 Diferentemente de uma máquina virtual, um container normalmente compartilha o kernel do sistema operacional hospedeiro, tornando-o mais leve.  
 Um mesmo projeto pode utilizar vários containers para executar diferentes serviços, como backend, frontend e banco de dados.  
 **Docker** é uma das principais plataformas utilizadas para criar, executar e gerenciar containers.
+
 [[Docker]]

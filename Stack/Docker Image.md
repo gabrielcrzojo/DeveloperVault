@@ -4,4 +4,5 @@ As imagens são normalmente construídas a partir de um **Dockerfile**, que defi
 Uma mesma imagem pode ser utilizada para criar vários containers independentes.  
 Imagens são compostas por **camadas (layers)**, que podem ser reutilizadas para otimizar armazenamento e o processo de build.  
 Elas também podem ser armazenadas e distribuídas por registries, como o **Docker Hub**.
+
 [[Docker]]

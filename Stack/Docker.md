@@ -4,4 +4,5 @@ A partir da imagem, podem ser criados **containers**, que executam a aplicação
 Isso facilita o desenvolvimento, testes e implantação, reduzindo diferenças entre ambientes.  
 O **Docker Compose** permite configurar e executar vários containers relacionados como uma única aplicação.  
 Docker é muito utilizado para ambientes de desenvolvimento, bancos de dados, APIs, microsserviços e processos de **CI/CD**.
+
 [[Tools]]

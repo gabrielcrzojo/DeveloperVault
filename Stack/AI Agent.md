@@ -4,4 +4,5 @@ As ferramentas podem incluir APIs, bancos de dados, execução de código, pesqu
 Um agente pode dividir uma tarefa em várias etapas, executar ações, analisar os resultados e decidir o próximo passo.  
 Também pode utilizar **RAG** para buscar informações externas antes de tomar decisões ou gerar respostas.  
 Diferente de um chatbot simples, um agente possui capacidade de **interagir com o ambiente e executar tarefas**, não apenas gerar texto.
+
 [[LLM]]
