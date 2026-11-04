@@ -1,0 +1,5 @@
+**Material for MkDocs** é um **tema e conjunto de recursos avançados de interface e navegação** para o MkDocs, voltado à criação de documentações técnicas modernas, responsivas e personalizáveis. Oferece **navegação hierárquica**, abas, índice de conteúdo, busca integrada, alternância entre temas claro e escuro e personalização de cores, fontes e identidade visual. Suporta recursos avançados de Markdown, como **admonitions, abas de conteúdo, blocos de código com destaque de sintaxe, anotações e diagramas Mermaid**, por meio de extensões e integrações. Permite adicionar funcionalidades com **plugins, extensões Markdown, CSS e JavaScript personalizados**, além de integrar recursos como versionamento de documentação e publicação automatizada. Seu foco está na **experiência de leitura, organização, acessibilidade e usabilidade da documentação**, atuando como a camada de apresentação e experiência do usuário (**UI/UX**) sobre o MkDocs.
+
+https://squidfunk.github.io/mkdocs-material/
+
+[[MkDocs]]

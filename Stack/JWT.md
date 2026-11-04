@@ -2,5 +2,4 @@
 
 https://www.jwt.io/ (Decoder)
 
-[[API]]
 [[JSON]]

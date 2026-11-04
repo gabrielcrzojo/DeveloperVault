@@ -1,2 +1,6 @@
 .trash/.obsidian/plugins/
 .obsidian/
+
+# Visualização estática: dependências e arquivos gerados localmente
+View/node_modules/
+View/dist/

@@ -2,4 +2,4 @@ PyAutoGUI é uma biblioteca Python para **automação de interfaces gráficas**.
 
 [[Automation]]
 
-#library
+#Library

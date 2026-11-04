@@ -6,3 +6,4 @@ Imagens são compostas por **camadas (layers)**, que podem ser reutilizadas para
 Elas também podem ser armazenadas e distribuídas por registries, como o **Docker Hub**.
 
 [[Docker]]
+[[Container]]

@@ -7,4 +7,4 @@ O QStash entrega a tarefa para um endpoint, enquanto o próprio sistema é respo
 
 https://upstash.com/docs/qstash/overall/getstarted
 
-[[API]]
+[[Upstash]]

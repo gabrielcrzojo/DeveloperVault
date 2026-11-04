@@ -2,4 +2,4 @@ JavaScript é uma linguagem de programação interpretada e dinamicamente tipada
 
 [[Frontend]]
 
-#leanguage
+#Leanguage

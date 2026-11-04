@@ -6,4 +6,4 @@ Seu objetivo principal é facilitar o controle de texto no clipboard sem precisa
 
 [[Automation]]
 
-#library
+#Library

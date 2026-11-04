@@ -2,4 +2,4 @@ SQL (Structured Query Language) é a linguagem padrão universal utilizada para 
 
 [[DataBase]]
 
-#leanguage
+#Leanguage

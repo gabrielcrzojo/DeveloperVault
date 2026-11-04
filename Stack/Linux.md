@@ -145,4 +145,5 @@
 ---
 
 **Observações:** Os comandos DNF apresentados são voltados ao Fedora tradicional (Workstation/Server). Variantes Atomic, como Silverblue, utilizam outro modelo de gerenciamento do sistema, baseado em `rpm-ostree`. Alguns utilitários podem precisar ser instalados separadamente.
+
 [[Tools]]

@@ -1,0 +1,3 @@
+**JWS (JSON Web Signature)** é um padrão de assinatura criptográfica definido pela RFC 7515, pertencente ao ecossistema JOSE, utilizado para garantir a integridade e verificar a autenticidade de informações. Utiliza algoritmos simétricos, como HMAC, ou assimétricos, como RSA e ECDSA, para gerar e verificar assinaturas digitais ou MACs. Na serialização compacta, possui três componentes: Header, Payload e Signature, normalmente codificados em Base64URL. É amplamente utilizado na assinatura de tokens JWT, autenticação, autorização e comunicação entre APIs e serviços. Diferentemente do JWE, que criptografa os dados para garantir confidencialidade, o JWS protege o conteúdo contra modificações não detectadas, sem ocultar suas informações.
+
+[[JWT]]

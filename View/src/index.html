@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101216">
+  <meta name="description" content="Um mapa vivo de estudos em desenvolvimento de software. Explore as notas e conexões do DeveloperVault.">
+  <title>DeveloperVault · Mapa de conhecimento</title>
+  <link rel="icon" href="./assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <a class="skip-link" href="#workspace">Pular para o mapa</a>
+  <header class="topbar">
+    <a class="brand" href="#" aria-label="DeveloperVault, voltar ao mapa">
+      <svg viewBox="0 0 32 32" aria-hidden="true"><path d="m16 3 12 7v13l-12 7-12-7V10Z"/><path d="m4 10 12 7 12-7M16 17v13M10 6.5l12 7v7l-6 3.5"/></svg>
+      <span>Developer<span class="brand-light">Vault</span><small>UM MAPA EM CONSTRUÇÃO</small></span>
+    </a>
+    <div class="topbar-center"><span class="status-dot"></span> Conhecimento conectado</div>
+    <a class="repository-link" href="https://github.com/gabrielcrzojo/DeveloperVault" target="_blank" rel="noopener noreferrer">Repositório <span aria-hidden="true">↗</span></a>
+  </header>
+  <main id="workspace" tabindex="-1">
+    <section id="graph-view" class="graph-view" aria-label="Mapa de conhecimento">
+      <aside class="explorer" aria-label="Explorar notas">
+        <div class="explorer-heading"><span class="eyebrow">EXPLORAR O COFRE</span><span id="total-badge" class="count-badge">—</span></div>
+        <label class="search-box"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 4 4"/></svg><input id="search" type="search" placeholder="Buscar uma nota…" autocomplete="off" aria-label="Buscar notas pelo título"><kbd>/</kbd></label>
+        <details class="filters" open><summary>Categorias <span aria-hidden="true">⌄</span></summary><div id="category-filters"></div></details>
+        <div class="notes-heading"><span>NOTAS</span></div>
+        <div id="note-list" class="note-list" aria-label="Notas disponíveis"></div>
+        <div class="explorer-footer"><span class="tiny-network" aria-hidden="true">⌘</span><span>Ideias se tornam conexões.<small>Uma nota de cada vez.</small></span></div>
+      </aside>
+      <div id="graph-stage" class="graph-stage">
+        <div class="map-heading"><div class="eyebrow"><span class="status-dot"></span> VISÃO GERAL</div><h1>Conecte os pontos.</h1><p>Explore os caminhos entre os seus estudos.</p></div>
+        <svg id="graph" aria-label="Grafo interativo das notas; use a lista de notas para navegação alternativa" role="group"><g id="graph-world"><g id="edges"></g><g id="nodes"></g></g></svg>
+        <div id="graph-error" class="graph-message" role="alert" hidden></div>
+        <div id="empty-state" class="graph-message" hidden><span aria-hidden="true">⌕</span><strong>Nenhuma nota encontrada</strong><p>Tente outro título ou ative mais categorias.</p><button id="clear-filters" class="text-button">Limpar busca e filtros</button></div>
+        <div id="hover-card" class="hover-card" hidden><span id="hover-category" class="eyebrow"></span><strong id="hover-title"></strong><span id="hover-description"></span><small>Clique para abrir a nota <span aria-hidden="true">↗</span></small></div>
+        <div class="graph-bottom"><div class="graph-stats" aria-live="polite"><span><i class="status-dot"></i> <b id="visible-notes">—</b> notas</span></div><p class="graph-hint">Arraste para explorar <span>·</span> Role para ampliar</p></div>
+        <div class="graph-controls" aria-label="Controles do mapa"><button id="zoom-in" aria-label="Ampliar" title="Ampliar">+</button><span id="zoom-level" aria-live="polite">100%</span><button id="zoom-out" aria-label="Reduzir" title="Reduzir">−</button><span class="control-divider"></span><button id="reset-view" aria-label="Restaurar visão geral" title="Restaurar visão geral"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 3H3v5m13-5h5v5M3 16v5h5m13-5v5h-5"/><circle cx="12" cy="12" r="3"/></svg></button><button id="toggle-motion" aria-label="Pausar movimento" aria-pressed="false" title="Pausar movimento"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 6v12M15 6v12"/></svg></button></div>
+      </div>
+    </section>
+    <section id="reader-view" class="reader-view" aria-label="Leitura da nota" hidden>
+      <div class="reader-toolbar"><button id="back-to-graph" class="back-button"><span aria-hidden="true">←</span> Voltar ao mapa <kbd>Esc</kbd></button><span id="reader-path"></span><a id="source-link" target="_blank" rel="noopener noreferrer">Ver no GitHub <span aria-hidden="true">↗</span></a></div>
+      <div class="reader-scroll" id="reader-scroll"><article class="note-article"><div id="reader-category" class="eyebrow"></div><h1 id="reader-title" tabindex="-1"></h1><div id="reader-meta" class="reader-meta"></div><div id="note-content" class="markdown-body"></div><section id="related-section" class="related-section"><div class="eyebrow">CONTINUE EXPLORANDO</div><h2>Conexões desta nota</h2><div id="related-notes" class="related-notes"></div></section></article></div>
+    </section>
+  </main>
+  <div id="announcement" class="sr-only" role="status" aria-live="polite"></div>
+  <noscript><p class="graph-message">Ative o JavaScript para explorar o mapa e ler as notas. O conteúdo também está disponível no <a href="https://github.com/gabrielcrzojo/DeveloperVault/tree/main/Stack">repositório</a>.</p></noscript>
+  <script>
+    const notice = document.querySelector('#graph-error');
+    if (location.protocol === 'file:') {
+      notice.hidden = false;
+      notice.innerHTML = '<strong>Abra a prévia local</strong><p>O mapa precisa de um servidor para carregar as notas. Na raiz do repositório, execute:</p><p><code>npm run dev --prefix View</code></p><a class="text-button" href="http://127.0.0.1:4173/">Abrir o mapa em localhost ↗</a>';
+    } else {
+      const app = document.createElement('script');
+      app.type = 'module';
+      app.src = './app.js';
+      app.onerror = () => {
+        notice.hidden = false;
+        notice.textContent = 'Não foi possível carregar o mapa. Recarregue a página ou inicie a prévia com npm run dev --prefix View.';
+      };
+      document.head.append(app);
+    }
+  </script>
+</body>
+</html>

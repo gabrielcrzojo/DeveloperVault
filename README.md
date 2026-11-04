@@ -22,6 +22,6 @@ As notas usam links no formato `[[Nome da nota]]` para conectar assuntos. O cont
 
 Cada ponto representa uma nota; cada linha, uma conexão entre assuntos. Este é um registro do grafo atual — um retrato de como os estudos estão ganhando forma.
 
-![Grafo do DeveloperVault com conexões entre frontend, backend, bancos de dados, inteligência artificial, ferramentas e conceitos](assets/vault-graph.png)
+![Grafo do DeveloperVault com conexões entre frontend, backend, bancos de dados, inteligência artificial, ferramentas e conceitos](View/assets/vault-graph.png)
 
 Se algum tema despertar sua curiosidade, siga as conexões. Uma nota pode ser o começo de uma nova trilha de estudo.

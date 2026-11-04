@@ -2,4 +2,4 @@ FastAPI é um framework web moderno e de alto desempenho para Python, utilizado 
 
 [[RestAPI]]
 
-#framework
+#Framework

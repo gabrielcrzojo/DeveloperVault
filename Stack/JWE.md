@@ -1,0 +1,3 @@
+**JWE (JSON Web Encryption)** é um padrão de criptografia definido pela RFC 7516, pertencente ao ecossistema JOSE, utilizado para garantir a confidencialidade de informações transmitidas entre sistemas. Permite criptografar conteúdos JSON e outros tipos de payload, utilizando algoritmos de criptografia e gerenciamento de chaves. Um JWE compacto possui cinco componentes: Protected Header, Encrypted Key, Initialization Vector, Ciphertext e Authentication Tag. Pode ser utilizado para proteger tokens JWT, dados sensíveis e informações compartilhadas entre APIs e serviços. Diferentemente do JWS, que protege a integridade e autenticidade dos dados, o JWE tem como principal finalidade impedir o acesso não autorizado ao conteúdo.
+
+[[JWT]]
