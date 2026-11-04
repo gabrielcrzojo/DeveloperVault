@@ -33,6 +33,8 @@ O endereço configurado é [gabrielcrzojo.github.io/DeveloperVault/](https://gab
 
 Cada push na `main` gera e publica as notas daquele commit, incluindo notas novas, alterações, renomeações e exclusões. Pull requests executam os testes e a geração, sem publicar. Edições apenas locais aparecem no servidor de desenvolvimento; o site público recebe as alterações após o push e a conclusão do workflow.
 
+CSS, JavaScript e dados das notas recebem um identificador de conteúdo em suas URLs para evitar o reaproveitamento de arquivos antigos entre publicações. O arquivo `version.json` identifica a versão e o commit publicado. O GitHub Pages ainda pode manter o HTML anterior em cache por até dez minutos; após a publicação, `Ctrl` + `Shift` + `R` força a atualização, ou acesse o endereço com `?v=IDENTIFICADOR` para carregar o HTML da nova versão.
+
 ## Navegação
 
 - Clique em um ponto ou título da lista para aproximar suavemente a câmera da nota e abrir a descrição em tela completa. O retorno mantém a posição e o zoom anteriores; `Esc` cancela a aproximação. A preferência de movimento reduzido abre a nota diretamente.

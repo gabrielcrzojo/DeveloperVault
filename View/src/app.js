@@ -27,7 +27,11 @@ const filterTask = createFrameTask(() => filterNotes());
 const drawTask = createFrameTask(() => draw(performance.now()));
 
 async function start() {
-  const response = await fetch('./vault.json', { cache: 'no-cache' });
+  const moduleUrl = new URL(import.meta.url);
+  const dataUrl = new URL('./vault.json', moduleUrl);
+  const version = moduleUrl.searchParams.get('v');
+  if (version) dataUrl.searchParams.set('v', version);
+  const response = await fetch(dataUrl, { cache: 'no-cache' });
   if (!response.ok) throw new Error(`Não foi possível carregar as notas (${response.status}).`);
   data = await response.json();
   nodes = data.notes.map((note, index) => ({ ...note, searchTitle: fold(note.title), labelWidth: note.title.length * 5.7, phase: index * 2.39996 }));
