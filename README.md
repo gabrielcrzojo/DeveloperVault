@@ -4,10 +4,6 @@ Meu cofre de estudos em desenvolvimento de software: notas organizadas no **Obsi
 
 ## [↗ Explorar o mapa interativo](https://gabrielcrzojo.github.io/DeveloperVault/)
 
-> **Acesse a visualização online:** [gabrielcrzojo.github.io/DeveloperVault](https://gabrielcrzojo.github.io/DeveloperVault/)
->
-> Navegue pelas conexões, filtre por categoria e abra as notas para ler o conteúdo completo.
-
 [![Prévia do mapa de conhecimento do DeveloperVault — clique para abrir a visualização online](View/assets/vault-graph.png)](https://gabrielcrzojo.github.io/DeveloperVault/)
 
 *A imagem é um registro do grafo. O mapa interativo recebe as alterações das notas a cada publicação no GitHub Pages.*
@@ -20,15 +16,11 @@ Meu cofre de estudos em desenvolvimento de software: notas organizadas no **Obsi
 - **Inteligência artificial:** LLMs, agentes e RAG.
 - **Ferramentas e conceitos:** Git, Docker, automação, DevOps e outros temas que surgem durante os estudos.
 
-As notas estão em construção: algumas aprofundam um assunto, enquanto outras registram dúvidas ou pontos de partida para aprender mais.
+As notas estão em construção: algumas aprofundam um assunto, enquanto outras registram pontos de partida para aprender mais.
 
 ## Como explorar
 
 **Pelo site:** comece pela Stack, siga os fios entre as notas ou encontre um assunto pela busca e pelas categorias. Use a roda do mouse para ampliar, arraste para navegar e clique em uma nota para abrir sua descrição. A estrela centraliza o mapa e repete a animação de construção.
-
-**Pelo repositório:** abra a [nota Stack](Stack/Stack.md) ou navegue pela [pasta de anotações](Stack/).
-
-**No Obsidian:** abra a pasta deste repositório como um cofre. Os links no formato `[[Nome da nota]]` conectam os assuntos e alimentam o grafo.
 
 ## Organização
 
