@@ -1,5 +1,3 @@
-# Linux
-
 **Linux** é um kernel livre e de código aberto que constitui a base de diversos sistemas operacionais, conhecidos como distribuições Linux. É responsável por gerenciar processos, memória, dispositivos, sistemas de arquivos e a comunicação entre hardware e software. É amplamente utilizado em servidores, computadores pessoais, ambientes de desenvolvimento e infraestrutura de computação em nuvem. Destaca-se pela estabilidade, segurança, flexibilidade e capacidade de personalização.
 
 **Current distro:** Fedora Linux 43  
